@@ -73,8 +73,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: 100%;
     overflow: hidden;
     position: absolute;
-    top: 50%; 
-    margin: -290.5px auto 0 auto;
+    top: 10%; 
+    padding-bottom: 50px; 
+    margin: 0 auto 0 auto;
 }
 h1 {
     font-size: 18px;
@@ -228,7 +229,7 @@ h2.resp-tab-title:last-child {
     background-color: #f4f4f4;
     float: left;
     width: 88%;
-    height: 580px;
+    height: 100%;
     clear: none;
     margin-left: 13px;
 }
@@ -551,7 +552,7 @@ h2.resp-accordion:hover {
 }
 
 .content_2 {
-    height: 580px;
+    height: 100%;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;		
@@ -915,7 +916,7 @@ ul.about {
 ---------------------------------------------------*/
 
 .widget-profil{
-    height: 580px;   
+    height: 100%;   
     float: right; 
 }
 .widget-profil .circle {
@@ -986,6 +987,7 @@ ul.about {
 .widget-profil #profile_social
 {
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 #profile_social a{
@@ -1087,7 +1089,7 @@ ul.about {
 
 @media only screen  and (max-width: 766px) {
     .widget-profil{ 	
-        height: 285px !important;
+        height: 5100% !important;
         margin-bottom: 20px;
         float: none;
     }

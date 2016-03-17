@@ -5,13 +5,16 @@ jQuery(document).ready(function($) {
 	/* ---------------------------------------------------------------------- */
 	/*	------------------------------- Loading ----------------------------- */
 	/* ---------------------------------------------------------------------- */
-	
 	/*Page Preloading*/
 	$(window).load(function() {
 	$('#spinner').fadeOut(200);
 	$('#preloader').delay(200).fadeOut('slow');
 	$('.wrapper').fadeIn(200);
 	$('#custumize-style').fadeIn(200);
+	$('.flexslider').flexslider({
+    animation: "slide",
+    controlNav: "thumbnails"
+  	});
 	});
 	
 	/* ---------------------------------------------------------------------- */
@@ -421,8 +424,7 @@ jQuery(document).ready(function($) {
 	/* -------------------------------- skillbar ---------------------------- */
 	/* ---------------------------------------------------------------------- */
 	
-	$('.tabs-resume').click(function() {
-	
+	$(document).ready(function() {
 	$('.skillbar').each(function() {
 	$(this).find('.skillbar-bar').width(0);
 	});
